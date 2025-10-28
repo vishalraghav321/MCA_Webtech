@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 - Tables and Forms</title>
+    <style>
+        body { font-family: Arial; margin: 30px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        th, td { padding: 8px; text-align: center; }
+        table { width: 60%; margin-bottom: 20px; }
+        form { border: 1px solid black; padding: 15px; width: 50%; }
+        input, textarea { width: 100%; margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h2>Student Information Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Shshank</td>
+            <td>101</td>
+            <td>BCA</td>
+        </tr>
+        <tr>
+            <td>Vishal</td>
+            <td>102</td>
+            <td>BBA</td>
+        </tr>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Message:</label>
+        <textarea rows="3" placeholder="Write your message"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
