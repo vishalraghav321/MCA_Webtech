@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h2 align="center">Contact Form</h2>
+    <hr>
+
+    <form >
+        <table border="1" align="center" cellpadding="8" cellspacing="0">
+            <tr>
+                <th colspan="2">Contact Us</th>
+            </tr>
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your full name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="Enter your number"></td>
+            </tr>
+            <tr>
+                <td><label for="subject">Subject:</label></td>
+                <td><input type="text" id="subject" name="subject"></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message here..."></textarea></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
