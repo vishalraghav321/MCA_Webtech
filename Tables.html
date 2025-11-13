@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Tables</title>
+<style>
+  .table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table {
+    border-collapse:collapse;
+    width: 100%;
+    min-width: 500px;
+  }
+
+  th, td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: center;
+  }
+
+
+  caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .t2 th, .t2 td {
+    border: 1px dashed grey;
+    
+  }
+</style>
+</head>
+<body>
+
+<div class="table">
+  <table>
+    <caption>Student Information Table</caption>
+    <tr>
+      <th rowspan="2">Roll No</th>
+      <th rowspan="2">Name</th>
+      <th colspan="2">Marks</th>
+      <th rowspan="2">Extra Info</th>
+    </tr>
+    <tr>
+      <th>Math</th>
+      <th>Science</th>
+    </tr>
+
+    <tr>
+      <td>101</td>
+      <td>Vivek</td>
+      <td>90</td>
+      <td>85</td>
+      <td>
+        <table class="t2">
+          <tr>
+            <th>Club</th>
+            <th>Position</th>
+          </tr>
+          <tr>
+            <td>Robotics</td>
+            <td>Leader</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- <tr>
+      <td>102</td>
+      <td>Riya</td>
+      <td>88</td>
+      <td>92</td>
+      <td>
+        <table class="t2">
+          <tr>
+            <th>Club</th>
+            <th>Position</th>
+          </tr>
+          <tr>
+            <td>Drama</td>
+            <td>Member</td>
+          </tr>
+        </table>
+      </td>
+    </tr> -->
+  </table>
+</div>
+
+</body>
+</html>
